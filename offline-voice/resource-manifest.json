@@ -1,0 +1,44 @@
+{
+  "resource": "voice_offline_64",
+  "task": 1073534,
+  "version": 1,
+  "zip_sha256": "8f934758d7e4dbf15bcf31f1335a7cb6d4cb6e39590849019c34d96699450281",
+  "files": {
+    "file_list_md5": {
+      "bytes": 611,
+      "sha256": "58df6fb2f675873073a48ae18c0eb4f59dad34345fa91f9a2c5aa5c834e56490"
+    },
+    "model/butterfly_model": {
+      "bytes": 58034009,
+      "sha256": "ba2dae90521cafa9f29261d88b63cb0a05151ec0fc457fbc7b2464c7b3be7a88"
+    },
+    "model/punc_model_zh_eng_210702": {
+      "bytes": 1602001,
+      "sha256": "8b8106ed39d27a50bf27e41ae326180c28effc622c2343aa973594b60d44fe64"
+    },
+    "libs/punctuator/arm64-v8a/libpunctuator.so": {
+      "bytes": 853944,
+      "sha256": "7db0f3ecbe5a1dd1475ce0be560467048892c6ffce0da34492ea21ce97c9f645"
+    },
+    "libs/punctuator/arm64-v8a/libpunctuatorwrapper.so": {
+      "bytes": 1212096,
+      "sha256": "98f0c89d4636995c717fb626cf9c441e5441bad85a1eda395ebd0931192bb3fd"
+    },
+    "libs/offlineasr/arm64-v8a/libbutterfly.so": {
+      "bytes": 898536,
+      "sha256": "bc235d8c6cdaedbc9d3a5a18aa997cc5358bbd40c033682a09340efa3609af14"
+    },
+    "libs/offlineasr/arm64-v8a/libc++_shared.so": {
+      "bytes": 1005520,
+      "sha256": "0a29a2ba04bb0dbe9a2e3480620ce9165e27b95d746c07bc6944d2cf48c9567d"
+    },
+    "libs/common/arm64-v8a/libevalite.so": {
+      "bytes": 2586984,
+      "sha256": "4bfe44b016e0e3f3c92f7084754d404e78d9df1f5cfce896c0d96581a4efd695"
+    },
+    "libs/common/arm64-v8a/libomp.so": {
+      "bytes": 642928,
+      "sha256": "2228353052165803b02c42322bec5d67c60ba9d633049ab69071eefdad528a2b"
+    }
+  }
+}

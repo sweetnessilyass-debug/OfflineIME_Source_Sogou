@@ -1,0 +1,24 @@
+# Source files are opt-in. Downloaded inputs and local outputs stay untracked.
+*
+!*/
+!*.py
+!*.java
+!*.md
+!/.gitignore
+!/.gitattributes
+!/LICENSE
+!/.githooks/pre-push
+!/offline-voice/resource-manifest.json
+/audit/
+/inputs/
+/tools/
+/dist/
+/releases/
+/.local/
+**/work/
+**/build/
+**/logs/
+**/device/
+**/private/
+**/resources/
+**/__pycache__/
