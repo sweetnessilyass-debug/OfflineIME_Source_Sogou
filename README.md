@@ -14,16 +14,22 @@
 
 ## 📦 APK 下载
 
-**下载状态：待发布。当前尚未配置有效 APK 下载地址。**
+**已发布：v0.2.0 离线语音实验版 · ARM64。** 点击下面的 APK 链接即可下载，安装包约 **132.2 MiB**。
 
 | 版本 | 主要区别 | 下载 |
 | --- | --- | --- |
-| Lite 0.2 离线语音实验版 · ARM64 | 本地输入 + 内置普通话离线语音 | 待发布 |
+| Lite 0.2 离线语音实验版 · ARM64 | 本地输入 + 内置普通话离线语音 | [📥 直接下载 APK](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Sogou/releases/download/v0.2.0/OfflineIME-voice-arm64.apk) |
 | Lite 0.1 基础离线版 · ARM64 | 本地输入，不含语音模型 | 暂未提供下载 |
 
-<!-- APK_DOWNLOAD: 有新签名产物及有效下载地址后，将上表对应“待发布”替换为真实 Markdown 下载链接。不要填写旧产物地址、占位域名或本机路径。 -->
+[发布说明](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Sogou/releases/tag/v0.2.0) · [下载校验文件](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Sogou/releases/download/v0.2.0/SHA256SUMS.txt) · [查看验证摘要](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Sogou/releases/download/v0.2.0/verification.json)
 
-正式发布时，这里会直接提供 APK 下载链接，并附对应版本说明及 SHA-256 校验值。源码 ZIP 用于查看和构建，不能直接当 APK 安装。
+`OfflineIME-voice-arm64.apk` 的 SHA-256：
+
+```text
+48fc11bab76963122ff27fc4d33888f9b649b44590e746ff1d6bc16d354616be
+```
+
+**这是采用新独立签名的实验包。** 本次已完成构建和静态校验，尚未单独安装到真机复测；已有测试范围见下方。源码 ZIP 用于查看和构建，不能直接当 APK 安装。
 
 <a id="changes"></a>
 
@@ -91,6 +97,8 @@ Lite 0.2 构建会内置经过校验的普通话语音资源：
 **尚未完成：**多机型适配、长句连续输入、强噪声、方言、长期功耗与稳定性测试。一次短句成功，不能直接晋升为“所有手机上的语音冠军”。
 
 原始设备日志与历史产物未放入公开源码。上述记录不代表后续每个自行构建或重新签名的 APK 都已实测，下载时请以对应发布说明为准。
+
+本次公开的 v0.2.0 已通过签名、ZIP 对齐、联网权限、模型完整性和已知隐私标识检查；包内 9 个 DEX 文件与此前实测构建逐字节一致。新签名安装包尚未单独真机复测，详细结果见下载区的验证摘要。
 
 ## 🙋 几个容易问到的问题
 
